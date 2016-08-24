@@ -1,6 +1,6 @@
 $(search).keyup(function(){
-    var searchField = $('#search').val();
-    var myExp = new RegExp(searchField , "i");
+    var searchField = $('#search').val();// get typed values
+    var myExp = new RegExp(searchField , "i"); //show resultst that equal the regex
 
     $.getJSON('data.json', function(data){
     var output = '<ul class= "searchresults"> ';
@@ -15,6 +15,6 @@ $(search).keyup(function(){
        
     });
     output += '</ul>';
-    $('#update').html(output);
+    $('#update').html(output); // map output to upadte div
     });
 });
