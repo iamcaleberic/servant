@@ -4,17 +4,23 @@
     <title>Servant Onspot search</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style/style.css"> 
+    <link rel="stylesheet" href="style/semantic.min.css"> 
 </head>
-<body>  
-<div id="searchbox">
-    <label for="search">Live search</label>
+<body >  
+<div class="ui inverted blue segment" id="searchbox">
+    <div class="ui container">
+    <label class="ui header" for="search">Live search</label>
     <p>Enter name or info of speaker</p>
-    <input type="search" name="search" id= "search" value=""  placeholder="Search Speaker Details"/>
+    <div class="ui form">
+    <input class="ui field" type="search" name="search" id= "search" value=""  placeholder="Search Speaker Details"/>
+    </div>
+    </div>
 </div>
-<div id="update">
+<div class="ui container" id="update">
     
 </div>
 <script src="js/jquery.min.js"></script>
+<script src="js/semantic.min.js"></script>
 <script src="js/script.js" ></script>
     
 
