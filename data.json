@@ -3,13 +3,20 @@
         "name": "John Snow",
         "shortname": "Snow",
         "reknown": "Royal academy of GOT",
-        "bio": "Big sword...black coat bla..bla..bla"
+        "bio": "Big sword...black coat Ned Stark's bastard son, Jon joined the Night's Watch. On a mission for Lord Commander Mormont, Jon infiltrated the wildlings by pretending to forsake his Night Watch brothers. In doing so, he fell in love with Ygritte, a wildling woman. bla..bla..bla"
     },
 
     {
         "name": "Arya Stark",
         "shortname": "Stark",
         "reknown":"Royal academy of no faces",
-        "bio": "Big walls of no faces freaky as hell"
+        "bio": "Big walls of no faces freaky as hell The younger of the Stark daughters, Arya has put her survival skills to use as she continues to evade the Lannister forces that seek her. En route to the Twins in search of her mother and brother, she arrived at the castle after the Red Wedding"
+    },
+
+     {
+        "name": "Black Beard",
+        "shortname": "Beard",
+        "reknown":"Battle of blackbeard",
+        "bio": "Edward Teach or Edward Thatch (c. 1680 – 22 November 1718), better known as Blackbeard, was a notorious English pirate who operated around the West Indies and the eastern coast of the American colonies. Although little is known about his early life, he was probably born in Bristol, England. Recent genealogical research indicates his family moved to Jamaica where Edward Thatch, Jr. is listed as being a mariner in the Royal Navy aboard HMS Windsor in 1706.[1] He may have been a sailor on privateer ships during Queen Anne's War before settling on the Bahamian island of New Providence, a base for Captain Benjamin Hornigold, whose crew Teach joined sometime around 1716. Hornigold placed him in command of a sloop he had captured, and the two engaged in numerous acts of piracy. Their numbers were boosted by the addition to their fleet of two more ships, one of which was commanded by Stede Bonnet, but toward the end of 1717 Hornigold retired from piracy, taking two vessels with him."
     }
 ]
