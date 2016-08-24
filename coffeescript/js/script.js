@@ -1,2 +1,2 @@
-function one(){return"caleb"}
+function one(){return"gulp  "}
 function two(){return"two"}
