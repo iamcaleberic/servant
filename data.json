@@ -12,7 +12,12 @@
         "reknown":"Royal academy of no faces",
         "bio": "Big walls of no faces freaky as hell The younger of the Stark daughters, Arya has put her survival skills to use as she continues to evade the Lannister forces that seek her. En route to the Twins in search of her mother and brother, she arrived at the castle after the Red Wedding"
     },
-
+      {
+        "name": "Jack Sparrow",
+        "shortname": "Captain",
+        "reknown":"Carribean pirates",
+        "bio": "Captain Jack Sparrow is a fictional character and the main protagonist in the Pirates of the Caribbean film series. The character was created by screenwriters Ted Elliott and Terry Rossio, and is portrayed by Johnny Depp, who based his characterization on Rolling Stones guitarist Keith Richards and cartoon character Pepé Le Pew. He first appears in the 2003 film Pirates of the Caribbean: The Curse of the Black Pearl. He later appears in the sequels Dead Man's Chest (2006), At World's End (2007), On Stranger Tides (2011), and Dead Men Tell No Tales (2017)."
+     },
      {
         "name": "Black Beard",
         "shortname": "Beard",
