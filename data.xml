@@ -1,0 +1,21 @@
+<speakers>
+        <speaker>
+            <name>John Snow </name>
+            <shortname>Snow</shortname>
+            <reknown>Royal academy of Game of Thrones</reknown>
+            <bio>
+                Big sword ...black coat bla..bla..bla
+            </bio>
+
+        </speaker>
+
+        <speaker>
+            <name>Aya Stark </name>
+            <shortname>Aya</shortname>
+            <reknown>Royal academy of no faces</reknown>
+            <bio>
+                No face ...pointy sword... bla..bla..bla
+            </bio>
+            
+        </speaker>
+</speakers>
