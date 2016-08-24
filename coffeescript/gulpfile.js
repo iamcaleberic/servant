@@ -17,3 +17,9 @@ gulp.task('js', function(){
     .pipe(concat('script.js'))
     .pipe(gulp.dest('js'));
 });
+
+gulp.task('watch', function(){
+    gulp.watch(jsSources, ['js']);
+});
+
+gulp.task('default', ['js', 'watch']);
