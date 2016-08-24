@@ -1,0 +1,15 @@
+[
+    {
+        "name": "John Snow",
+        "shortname": "Snow",
+        "reknown": "Royal academy of GOT",
+        "bio": "Big sword...black coat bla..bla..bla"
+    },
+
+    {
+        "name": "Arya Stark",
+        "shortname": "Stark",
+        "reknown":"Royal academy of no faces",
+        "bio": "Big walls of no faces freaky as hell"
+    }
+]
