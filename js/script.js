@@ -42,3 +42,27 @@ say.onreadystatechange = function(){
 say.send();
 
 
+
+var myriad;
+if (window.XMLHttpRequest){
+    myriad = new XMLHttpRequest();
+
+} else {
+    myriad = new ActiveXObject("Microsoft.XMLHTTP");
+}
+
+myriad.open('GET' , 'data.json' );
+myriad.onreadystatechange = function(){
+    if ((myriad.readyState === 4) && (myriad.status === 200)){
+        var items = JSON.parse(myriad.responseText);
+        var output = '<ul>';
+        for (var key in items){
+            output += '<li>' + items[key].name + '</li>'
+        }
+
+        output += '</ul>';
+    }
+    document.getElementById('json').innerHTML = output
+   
+}
+myriad.send();
