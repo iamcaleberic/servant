@@ -34,3 +34,17 @@ United_Kingdom = ["NotherIreland"
 $('#content').append data.residence[0].name
 
 $('#history').append  "The only known living relative of the founders of the order is #{data.name}"
+
+# Ranges 
+
+z = [1...10] 
+
+called = [
+    "JOhn snow"
+    "Arya Stark"
+    ][1..3]
+
+called[1..2] = ['Bob', 'Pete']
+
+
+# if stats
