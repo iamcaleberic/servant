@@ -16,9 +16,17 @@ var sassSources = [
     'components/sass/*.scss'
 ];
 
-var cofee = [
+var coffeeSources = [
     'components/cofee/*.coffee'
 ]
+
+gulp.task('coffee' , function(){
+    gulp.src(coffeeSources)
+     .pipe(coffee({bare: true }))
+        .on('error', gutil.log)
+    .pipe(gulp.dest('components/scripts'))
+
+});
 
 gulp.task('js', function(){
     gulp.src(jsSources)
