@@ -1,4 +1,4 @@
-var UK, United_Kingdom, add, called, data, ref, z;
+var UK, United_Kingdom, add, called, dance, data, happy, name, punch, ref, z;
 
 $(function() {
   return $('h1').append("Order");
@@ -43,3 +43,35 @@ z = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 called = ["JOhn snow", "Arya Stark"].slice(1, 4);
 
 [].splice.apply(called, [1, 2].concat(ref = ['Bob', 'Pete'])), ref;
+
+name = "cal";
+
+if (name === "cal") {
+
+}
+
+name = "Eric Caleb";
+
+if (name === "Eric Caleb") {
+  name = "Me";
+}
+
+if (name !== "Eric Caleb ") {
+  name = "Level 6 Killjoy";
+}
+
+dance = function() {
+  return alert("Join the Servant Order");
+};
+
+happy = true;
+
+if (happy === true) {
+  dance();
+}
+
+punch = "So";
+
+if (punch != null) {
+  $('#history').prepend("" + punch);
+}

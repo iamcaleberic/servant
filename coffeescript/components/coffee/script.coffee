@@ -47,4 +47,26 @@ called = [
 called[1..2] = ['Bob', 'Pete']
 
 
-# if stats
+# if statements
+
+name = "cal"
+
+if name == "cal" then 
+name = "Eric Caleb"
+
+if name is  "Eric Caleb"
+    name = "Me"
+
+if name isnt "Eric Caleb "
+    name = "Level 6 Killjoy"
+
+dance = -> 
+    alert("Join the Servant Order")
+
+happy = true
+
+dance() if happy is true 
+
+punch =  "So"
+
+$('#history').prepend "#{punch}" if punch?
