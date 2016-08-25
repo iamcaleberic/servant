@@ -9,6 +9,7 @@ var gulp  = require('gulp'),
     server = lr();
 
 var jsSources = ['components/lib/jquery/jquery.min.js',
+                 'components/lib/semantic/semantic.min.js',
                  'components/scripts/*.js'
                 ];
 
