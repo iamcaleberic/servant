@@ -13,6 +13,7 @@ do ->
 data = 
     name : "Eric Caleb"
     numbers : [0,4,4]
-    links:
+    links: 
         twitter: "https://twitter.com/eric_caleb"
         github: "https://iamcaleberic.github.io"
+    occupation: "hacker"

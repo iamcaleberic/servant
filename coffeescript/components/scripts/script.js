@@ -20,5 +20,6 @@ data = {
   links: {
     twitter: "https://twitter.com/eric_caleb",
     github: "https://iamcaleberic.github.io"
-  }
+  },
+  occupation: "hacker"
 };
