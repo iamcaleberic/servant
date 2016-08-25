@@ -7,8 +7,8 @@ var gulp  = require('gulp'),
     lr = require('tiny-lr') ,
     server = lr();
 
-var jsSources = ['components/scripts/scriptOne.js',
-                 'components/scripts/scriptTwo.js'
+var jsSources = ['components/lib/jquery/jquery.min.js',
+                 'components/scripts/*.js'
                 ];
 
 var sassSources = [
