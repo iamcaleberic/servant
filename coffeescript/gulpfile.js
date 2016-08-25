@@ -2,7 +2,7 @@ var gulp  = require('gulp'),
     gutil = require('gulp-util'),
     uglify= require('gulp-uglify'),
     sass = require('gulp-ruby-sass'),
-    cofee = require('gulp-coffee'),
+    coffee = require('gulp-coffee'),
     concat = require('gulp-concat'),
     livereload = require('gulp-livereload'),
     lr = require('tiny-lr') ,
@@ -18,7 +18,7 @@ var sassSources = [
 
 var coffeeSources = [
     'components/cofee/*.coffee'
-]
+] 
 
 gulp.task('coffee' , function(){
     gulp.src(coffeeSources)
@@ -52,8 +52,9 @@ gulp.task('sass', function() {
 gulp.task('watch', function(){
     gulp.watch(jsSources, ['js']);
     gulp.watch(sassSources,['sass']);
-    gulp.watch('*.html',['html'] )
+    gulp.watch('*.html',['html'] );
+    gulp.watch(coffeeSources ,['coffee'])
 });
 
-gulp.task('default', [ 'html','sass', 'js', 'watch']);
+gulp.task('default', [ 'html', 'sass', 'coffee', 'js', 'watch']);
     
