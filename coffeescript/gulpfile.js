@@ -17,7 +17,7 @@ var sassSources = [
 ];
 
 var coffeeSources = [
-    'components/cofee/*.coffee'
+    'components/coffee/*.coffee'
 ] 
 
 gulp.task('coffee' , function(){
@@ -25,6 +25,7 @@ gulp.task('coffee' , function(){
      .pipe(coffee({bare: true }))
         .on('error', gutil.log)
     .pipe(gulp.dest('components/scripts'))
+    .pipe(livereload());
 
 });
 
