@@ -2,6 +2,7 @@ var gulp  = require('gulp'),
     gutil = require('gulp-util'),
     uglify= require('gulp-uglify'),
     sass = require('gulp-ruby-sass'),
+    cofee = require('gulp-coffee'),
     concat = require('gulp-concat'),
     livereload = require('gulp-livereload'),
     lr = require('tiny-lr') ,
@@ -14,6 +15,10 @@ var jsSources = ['components/lib/jquery/jquery.min.js',
 var sassSources = [
     'components/sass/*.scss'
 ];
+
+var cofee = [
+    'components/cofee/*.coffee'
+]
 
 gulp.task('js', function(){
     gulp.src(jsSources)
