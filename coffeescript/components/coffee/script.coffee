@@ -93,3 +93,18 @@ info =
 for key,val of info 
     console.log "{#key}: #{val}"
  
+
+#  Splats
+
+
+minidata = [
+    "John Snow"
+    "https://iamcaleberic.github.io"
+    "https://shadowsript.github.io"
+]
+fillOut = (name , links...) ->
+    $("#history").append "#{name} <br> "
+    for items in links 
+        $('#history').append "#{item} <br>"
+
+fillOut(minidata)

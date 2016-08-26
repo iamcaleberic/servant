@@ -1,4 +1,5 @@
-var UK, United_Kingdom, add, called, dance, data, destinations, happy, i, info, j, key, len, name, punch, ref, thing, val, z;
+var UK, United_Kingdom, add, called, dance, data, destinations, fillOut, happy, i, info, j, key, len, minidata, name, punch, ref, thing, val, z,
+  slice = [].slice;
 
 $(function() {
   return $('h1').append("Order");
@@ -94,3 +95,19 @@ for (key in info) {
   val = info[key];
   console.log("{#key}: " + val);
 }
+
+minidata = ["John Snow", "https://iamcaleberic.github.io", "https://shadowsript.github.io"];
+
+fillOut = function() {
+  var items, k, len1, links, name, results;
+  name = arguments[0], links = 2 <= arguments.length ? slice.call(arguments, 1) : [];
+  $("#history").append(name + " <br> ");
+  results = [];
+  for (k = 0, len1 = links.length; k < len1; k++) {
+    items = links[k];
+    results.push($('#history').append(item + " <br>"));
+  }
+  return results;
+};
+
+fillOut(minidata);
