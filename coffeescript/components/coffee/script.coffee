@@ -102,9 +102,34 @@ minidata = [
     "https://iamcaleberic.github.io"
     "https://shadowsript.github.io"
 ]
+# The links ... is a splat operator in CoffeeScript
 fillOut = (name , links...) ->
     $("#history").append "#{name} <br> "
     for items in links 
         $('#history').append "#{item} <br>"
 
 fillOut(minidata)
+
+# Switch statements
+
+append  = (item) -> 
+    $('#exist').append "#{item}"
+
+exist = "So does this order still exist?"
+
+switch exist 
+    when "cal " then append "John snow"
+    when "me ", "So does this order still exist?" then append "They do" 
+    else append "Do they still exist"
+# @ returns the current object
+say =  (item) -> 
+    $('#exist').append "#{item}"
+    console.log @say
+    console.dir @say
+say " Exist"
+# do keyword turns Function into an expression
+do scream =  (item = "Hell yeah") -> 
+    $('#exist').append "#{item}"
+    console.log @scream
+    console.dir @scream
+scream

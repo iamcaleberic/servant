@@ -1,4 +1,4 @@
-var UK, United_Kingdom, add, called, dance, data, destinations, fillOut, happy, i, info, j, key, len, minidata, name, punch, ref, thing, val, z,
+var UK, United_Kingdom, add, append, called, dance, data, destinations, exist, fillOut, happy, i, info, j, key, len, minidata, name, punch, ref, say, scream, thing, val, z,
   slice = [].slice;
 
 $(function() {
@@ -111,3 +111,37 @@ fillOut = function() {
 };
 
 fillOut(minidata);
+
+append = function(item) {
+  return $('#exist').append("" + item);
+};
+
+exist = "So does this order still exist?";
+
+switch (exist) {
+  case "cal ":
+    append("John snow");
+    break;
+  case "me ":
+  case "So does this order still exist?":
+    append("They do");
+    break;
+  default:
+    append("Do they still exist");
+}
+
+say = function(item) {
+  $('#exist').append("" + item);
+  console.log(this.say);
+  return console.dir(this.say);
+};
+
+say(" Exist");
+
+(scream = function(item) {
+  $('#exist').append("" + item);
+  console.log(this.scream);
+  return console.dir(this.scream);
+})("Hell yeah");
+
+scream;
