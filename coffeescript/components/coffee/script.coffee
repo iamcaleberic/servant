@@ -70,3 +70,26 @@ dance() if happy is true
 punch =  "So"
 
 $('#history').prepend "#{punch}" if punch?
+
+# Functions 
+
+destinations = [
+        "London"
+        "Paris"
+        "Berlin "
+        "Tokyo "
+        "Canberra"
+    ]
+
+# for thing , i  in destinations 
+#     console.log " #{i} #{thing} " 
+
+console.log " #{i} #{thing} " for thing , i in destinations  when thing isnt "London"
+
+info = 
+    name: "Black"
+    title: "blackbeard"
+
+for key,val of info 
+    console.log "{#key}: #{val}"
+ 

@@ -1,4 +1,4 @@
-var UK, United_Kingdom, add, called, dance, data, happy, name, punch, ref, z;
+var UK, United_Kingdom, add, called, dance, data, destinations, happy, i, info, j, key, len, name, punch, ref, thing, val, z;
 
 $(function() {
   return $('h1').append("Order");
@@ -74,4 +74,23 @@ punch = "So";
 
 if (punch != null) {
   $('#history').prepend("" + punch);
+}
+
+destinations = ["London", "Paris", "Berlin ", "Tokyo ", "Canberra"];
+
+for (i = j = 0, len = destinations.length; j < len; i = ++j) {
+  thing = destinations[i];
+  if (thing !== "London") {
+    console.log(" " + i + " " + thing + " ");
+  }
+}
+
+info = {
+  name: "Black",
+  title: "blackbeard"
+};
+
+for (key in info) {
+  val = info[key];
+  console.log("{#key}: " + val);
 }
