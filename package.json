@@ -1,0 +1,14 @@
+{
+    "name" : "Servant Onspot search",
+    "version": "0.1.0",
+    "description": "Serve and search JSON data" ,
+    "author": {
+        "email": "iamcaleb@tuta.io",
+        "name": "Eric Caleb",
+        "url": "iamcaleberic.github.io"
+    },
+    "devDependencies": {
+        
+    }
+
+}

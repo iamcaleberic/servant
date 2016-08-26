@@ -15,6 +15,6 @@ $(search).keyup(function(){
        
     });
     output += '</ul>';
-    $('#update').html(output); // map output to upadte div
+    $('#update').html(output); // map output to update div
     });
 });
