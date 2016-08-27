@@ -1,0 +1,15 @@
+{
+    "name": "servant-sass",
+    "version": "0.0.1",
+    "author": {
+        "name": "Eric Caleb",
+        "url": "iamcaleberic.github.io"    
+    },
+    "repository": {
+      "url": "github.com/iamcaleberic/servant/sass"       
+    },
+    "license": "MIT",
+    "dependencies": {
+        
+    }
+}
