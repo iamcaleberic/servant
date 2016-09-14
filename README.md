@@ -5,6 +5,8 @@ JavaScript  JSON  CoffeeScript with gulp
 #### Running
  Make sure you are in the CoffeeScript folder
  
+ Run ```npm install ``` to install dependencies 
+ 
  Run ```gulp``` to be able to litsen for any changes
  
  ```gulp``` should open a server on your favorite browser if set correctly
