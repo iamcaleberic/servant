@@ -1,15 +1,21 @@
 {
-    "name": "servant-sass",
-    "version": "0.0.1",
-    "author": {
-        "name": "Eric Caleb",
-        "url": "iamcaleberic.github.io"    
-    },
-    "repository": {
-      "url": "github.com/iamcaleberic/servant/sass"       
-    },
-    "license": "MIT",
-    "dependencies": {
-        
-    }
+  "name": "servant-sass",
+  "version": "0.0.1",
+  "description": "Sass servant sub project",
+  "author": {
+    "name": "Eric Caleb",
+    "url": "iamcaleberic.github.io"
+  },
+  "repository": {
+    "url": "github.com/iamcaleberic/servant/sass"
+  },
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp-jshint": "^2.0.1",
+    "gulp-ruby-sass": "^2.1.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-webserver": "^0.9.1",
+    "jshint": "^2.0.1"
+  }
 }
